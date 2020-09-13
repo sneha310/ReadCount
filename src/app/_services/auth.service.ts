@@ -6,8 +6,12 @@ const BASE_URL = 'https://pratilipi-backend.herokuapp.com';
 
 const AUTH_API = `${BASE_URL}/auth/`;
 
+let httpHeaders = new HttpHeaders();
+httpHeaders = httpHeaders.append('Authorization', 'my-auth-token');
+httpHeaders.set('Content-Type', 'application/json');    
+
 const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  headers: httpHeaders
 };
 
 @Injectable({
