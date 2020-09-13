@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const { BASE_URL } = 'https://pratilipi-backend.herokuapp.com';
+const BASE_URL = 'https://pratilipi-backend.herokuapp.com';
 
 const API_URL = `${BASE_URL}/api/`;
 
