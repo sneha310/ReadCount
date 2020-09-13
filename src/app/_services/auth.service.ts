@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const { BASE_URL } = process.env;
+const { BASE_URL } = 'https://pratilipi-backend.herokuapp.com';
 
 const AUTH_API = `${BASE_URL}/auth/`;
 
