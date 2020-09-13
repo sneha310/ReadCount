@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 
 const BASE_URL = 'https://pratilipi-backend.herokuapp.com';
 
-const AUTH_API = `${BASE_URL}/auth/`;
+const AUTH_API = `${BASE_URL}/api/auth/`;
 
 let httpHeaders = new HttpHeaders();
 httpHeaders = httpHeaders.append('Authorization', 'my-auth-token');
