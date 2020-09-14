@@ -5,10 +5,10 @@ The URL opens to the home page , through which one can access SignUp and Login p
 After a successful SignIn a person can Login with the same Credentials.
 The person will now be redirected to the Home Page and can thus Click On Stories to view the Titles and choose the story they wish to read.
 The Story Page Contains the following Details:
-Story Title
-Story Content
-Total No. Of Viewers
-Total No. of Current Viewers.
+1)Story Title
+2)Story Content
+3)Total No. Of Viewers
+4)Total No. of Current Viewers.
 
 The backend is hosted on Heroku and might take a few minutes to begin.
 URL: https://pratilipi-backend.herokuapp.com/
